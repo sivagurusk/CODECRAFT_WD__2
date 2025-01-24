@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background-image: url(../stopwatch/hulk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.stopwatch {
+    text-align: center;
+    background: #ffffff;
+    background-image: url(../stopwatch/deadpool.jpg);
+    background-size:auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.time {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #f41010;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #47e7f3, #17fa75);
+    color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+}
+.laps {
+    margin-top: 20px;
+}
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+.laps li {
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #f71707, #ee0a0a);
+    border-color: black;
+    text-overflow: clip;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+h3{
+    color: rgb(119, 239, 239);
+}
